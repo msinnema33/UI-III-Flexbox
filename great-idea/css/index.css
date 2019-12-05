@@ -236,6 +236,42 @@ nav a {
 
 /* main content */
 
+
+/*  -------------------services page-------vvvvvvvvvvvvvvvvv------- */
+
+.svc-main {
+    border: 1 px solid red;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.svc-offer {
+    border: 1px solid greenyellow;
+    background-color: darkgrey;
+    width: 40%;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.svc-lower {
+    border: 1 px solid red;
+    display: flex;
+    align-items: flex-start;
+}
+
+.svc-bottom {
+    border: 1px solid greenyellow;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+/*  -------------------services page--------^^^^^^^^^^^^^^^^^^^--- */
+
 .middle-img {
     display: inline-block;
     width: 100%;
