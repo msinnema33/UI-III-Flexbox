@@ -166,7 +166,6 @@ h5 {
 .container {
     width: 88%;
     margin: auto;
-    /* border: 1px solid red; */
 }
 
 
@@ -177,7 +176,6 @@ header nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* border: 1px solid blue; */
 }
 
 nav a {
@@ -267,9 +265,7 @@ footer {
 /*  -------------------services page-------vvvvvvvvvvvvvvvvv------- */
 
 .services-header-img {
-    /* display: inline; */
     margin-top: 5%;
-    /* border: 1px solid red; */
 }
 
 .serv-header {
@@ -288,14 +284,15 @@ footer {
 }
 
 .svc-main {
-    /* border: 10 px solid red; */
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-bottom: 3%;
     display: flex;
     flex-flow: wrap;
     justify-content: space-around;
 }
 
 .svc-offer {
-    /* border: 1px solid greenyellow; */
     margin-top: 3%;
     background-color: darkgrey;
     padding: 3%;
@@ -313,7 +310,6 @@ footer {
 }
 
 .svc-bottom {
-    /* border: 1px solid greenyellow; */
     padding: 3%;
     display: flex;
     flex-direction: column;
@@ -326,7 +322,75 @@ footer {
 
 .services-info-img {
     margin-top: 3%;
+    margin-left: 10%;
 }
 
 
 /*  -------------------services page--------^^^^^^^^^^^^^^^^^^^--- */
+
+
+/*  -------------------product page---------vvvvvvvvvvvvvvvvvvv----*/
+
+.services-header-img {
+    margin-top: 5%;
+}
+
+.prod-header {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.prod-header h1 {
+    margin-top: 3%;
+    text-size-adjust: 150%;
+}
+
+.prod-header p {
+    margin: 2%;
+}
+
+.prod-main {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-bottom: 3%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.prod-offer {
+    margin-top: 3%;
+    background-color: darkgrey;
+    padding: 3%;
+    width: 45%;
+    border-radius: 10px;
+}
+
+.prod-offer p {
+    margin: 5%;
+}
+
+.prod-lower {
+    display: flex;
+    justify-content: space-around;
+}
+
+.prod-bottom {
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.prod-bottom ul {
+    margin-top: 2%;
+}
+
+.services-info-img {
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+
+/*  -------------------product page---------^^^^^^^^^^^^^^^^^^^----*/
