@@ -165,29 +165,41 @@ h5 {
 .container {
     width: 88%;
     margin: auto;
+    border: 1px solid red;
 }
 
 
 /* header content */
 
 header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid blue;
+}
+
+
+/* header nav {
     display: inline-block;
     margin-top: 5px;
     margin-bottom: 5%;
-    width: 100%;
-}
+	width: 100%;
+}	
+	*/
 
 nav a {
     display: inline-block;
     color: lightslategray;
     text-decoration: none;
-    vertical-align: super;
-    margin-right: 7%;
+    /* vertical-align: super; */
+    /* margin-right: 7%; */
 }
 
-header .logo {
+
+/* header .logo {
     margin-left: 7%;
-}
+} */
 
 .header {
     display: inline-block;
@@ -196,10 +208,21 @@ header .logo {
     margin: 15%;
 }
 
+.serv-header {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.services-header-img {
+    display: inline;
+    border: 1px solid red;
+}
+
 .header img {
     display: inline-block;
-    margin-left: 8%;
-    margin-top: 5%;
+    /* margin-left: 8%;
+    margin-top: 5%; */
 }
 
 .button {
