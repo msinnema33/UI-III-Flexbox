@@ -113,10 +113,11 @@ body {
     line-height: 1;
 }
 
-ol,
+
+/* ol,
 ul {
     list-style: none;
-}
+} */
 
 blockquote,
 q {
@@ -208,17 +209,6 @@ nav a {
     margin: 15%;
 }
 
-.serv-header {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-
-.services-header-img {
-    display: inline;
-    border: 1px solid red;
-}
-
 .header img {
     display: inline-block;
     /* margin-left: 8%;
@@ -239,27 +229,42 @@ nav a {
 
 /*  -------------------services page-------vvvvvvvvvvvvvvvvv------- */
 
+.services-header-img {
+    display: inline;
+    border: 1px solid red;
+}
+
+.serv-header {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
 .svc-main {
-    border: 1 px solid red;
+    border: 10 px solid red;
     display: flex;
     flex-flow: wrap;
     justify-content: space-around;
-    width: 90%;
+    /* width: 90%; */
 }
 
 .svc-offer {
     border: 1px solid greenyellow;
     background-color: darkgrey;
-    width: 40%;
-    border-radius: 5%;
+    padding: 3%;
+    /* height: 145%; */
+    width: 45%;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .svc-lower {
     border: 1 px solid red;
     display: flex;
-    align-items: flex-start;
+    justify-content: space-around;
+    /* align-items: flex-start; */
 }
 
 .svc-bottom {
