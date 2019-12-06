@@ -317,6 +317,7 @@ footer {
 }
 
 .svc-bottom ul {
+    list-style-type: square;
     margin-top: 2%;
 }
 
@@ -384,6 +385,7 @@ footer {
 }
 
 .prod-bottom ul {
+    list-style-type: square;
     margin-top: 2%;
 }
 
